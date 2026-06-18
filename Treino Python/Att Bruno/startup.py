@@ -149,7 +149,7 @@ def AdicionarForma():
                 lista.append(Círculo(cor, raio))
                 i += 1
 
-            case "Quadrado" | "quadrado":
+            case "quadrado":
                 cor = input("Qual a cor do quadrado?: ")
                 try:
                     lado = float(input("Lado: "))
